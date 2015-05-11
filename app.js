@@ -1335,9 +1335,10 @@ $(document).ready (function(){
             //.append('<h1>'+title+'</h1>'
             $single = $("<div class='single'>");
             $single
+            .append("<img src='"+url+"'></img>")
             .append("<h1 id='title'>"+title+"</h1>")
-            .append("<span id='author'>"+author+"</span>")
-            .append("<img src='"+url+"'></img>");
+            .append("<span id='author'>"+author+"</span>");
+            
 
             $('body').append($single);
       }

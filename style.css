@@ -1,0 +1,23 @@
+#author {
+      vertical-align:top;
+      margin:0px;
+}
+
+h1 {
+      margin-bottom: 0px;
+}
+
+img {
+      float:left;
+      display:inline-block;
+      clear:both;
+      position:relative;
+      margin-bottom: 15px;
+}
+
+.single {
+      display:inline-block;
+      width: 100%;
+      overflow:hidden;
+      clear:both;
+}
